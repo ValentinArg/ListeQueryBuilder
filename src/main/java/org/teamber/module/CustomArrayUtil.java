@@ -1,4 +1,4 @@
-package org.teamber;
+package org.teamber.module;
 
 import java.util.Arrays;
 

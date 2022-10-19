@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'org.teamber'
+group 'org.teamber.module'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -29,19 +29,9 @@ publishing {
             from components.java
 
             pom {
-                name = 'My Library'
+                name = 'ListeQueryBuilder'
                 description = 'A concise description of my library'
-                url = 'http://www.example.com/library'
-                properties = [
-                        myProp: "value",
-                        "prop.with.dots": "anotherValue"
-                ]
-                licenses {
-                    license {
-                        name = 'The Apache License, Version 2.0'
-                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-                    }
-                }
+                url = 'https://github.com/ValentinArg/ListeQueryBuilderNew'
                 developers {
                     developer {
                         id = 'ValentinArg'
@@ -50,9 +40,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:git://example.com/my-library.git'
-                    developerConnection = 'scm:git:ssh://example.com/my-library.git'
-                    url = 'http://example.com/my-library/'
+                    connection = 'https://github.com/ValentinArg/ListeQueryBuilderNew'
+                    developerConnection = 'https://github.com/ValentinArg/ListeQueryBuilderNew'
+                    url = 'https://github.com/ValentinArg/ListeQueryBuilderNew'
                 }
             }
         }
